@@ -1,2 +1,9 @@
-package com.basic.basicjava.javaIntroductory.variable;public class Var4 {
+package com.basic.basicjava.javaIntroductory.variable;
+
+public class Var4 {
+  public static void main(String[] args) {
+    int a;
+    int b;
+    int c, d;
+  }
 }
