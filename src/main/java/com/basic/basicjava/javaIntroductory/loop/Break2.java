@@ -1,19 +1,17 @@
 package com.basic.basicjava.javaIntroductory.loop;
 
-public class Break1 {
+public class Break2 {
   public static void main(String[] args) {
     
     int sum = 0;
-    int i = 1;
-    
-    while (true) {
+
+    for (int i = 1; i < 10; i++) {
       sum += i;
       
       if(sum > 10) {
         System.out.println("합이 10보다 크면 종료 i = " + i + " sum = " + sum);
         break;
       }
-      i++;
     }
   }
 }
